@@ -82,6 +82,30 @@
   --ion-color-laranja-contrast-rgb: 0,0,0;
   --ion-color-laranja-shade: #e09900;
   --ion-color-laranja-tint: #ffb61a;
+
+  /** azul-real (Royalblue) **/
+  --ion-color-azul-real: #4169e1;
+  --ion-color-azul-real-rgb: 65,105,225;
+  --ion-color-azul-real-contrast: #ffffff;
+  --ion-color-azul-real-contrast-rgb: 255,255,255;
+  --ion-color-azul-real-shade: #395cc6;
+  --ion-color-azul-real-tint: #5478e4;
+
+  /** grafton-grey **/
+  --ion-color-grafton-grey: #63686a;
+  --ion-color-grafton-grey-rgb: 99,104,106;
+  --ion-color-grafton-grey-contrast: #ffffff;
+  --ion-color-grafton-grey-contrast-rgb: 255,255,255;
+  --ion-color-grafton-grey-shade: #575c5d;
+  --ion-color-grafton-grey-tint: #737779;
+
+  /** vermelho-escuro **/
+  --ion-color-vermelho-escuro: #8b0000;
+  --ion-color-vermelho-escuro-rgb: 139,0,0;
+  --ion-color-vermelho-escuro-contrast: #ffffff;
+  --ion-color-vermelho-escuro-contrast-rgb: 255,255,255;
+  --ion-color-vermelho-escuro-shade: #7a0000;
+  --ion-color-vermelho-escuro-tint: #971a1a;
 }
 
 .ion-color-laranja {
@@ -91,4 +115,31 @@
   --ion-color-contrast-rgb: var(--ion-color-laranja-contrast-rgb);
   --ion-color-shade: var(--ion-color-laranja-shade);
   --ion-color-tint: var(--ion-color-laranja-tint);
+}
+
+.ion-color-azul-real {
+  --ion-color-base: var(--ion-color-azul-real);
+  --ion-color-base-rgb: var(--ion-color-azul-real-rgb);
+  --ion-color-contrast: var(--ion-color-azul-real-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-azul-real-contrast-rgb);
+  --ion-color-shade: var(--ion-color-azul-real-shade);
+  --ion-color-tint: var(--ion-color-azul-real-tint);
+}
+
+.ion-color-grafton-grey {
+  --ion-color-base: var(--ion-color-grafton-grey);
+  --ion-color-base-rgb: var(--ion-color-grafton-grey-rgb);
+  --ion-color-contrast: var(--ion-color-grafton-grey-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-grafton-grey-contrast-rgb);
+  --ion-color-shade: var(--ion-color-grafton-grey-shade);
+  --ion-color-tint: var(--ion-color-grafton-grey-tint);
+}
+
+.ion-color-vermelho-escuro {
+  --ion-color-base: var(--ion-color-vermelho-escuro);
+  --ion-color-base-rgb: var(--ion-color-vermelho-escuro-rgb);
+  --ion-color-contrast: var(--ion-color-vermelho-escuro-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vermelho-escuro-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vermelho-escuro-shade);
+  --ion-color-tint: var(--ion-color-vermelho-escuro-tint);
 }
